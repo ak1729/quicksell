@@ -1,0 +1,59 @@
+.card__container{
+    border-radius: 10px;
+    background-color: white;
+    margin: 1rem 1rem;
+    padding: 10px;
+}
+
+.card__icon{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.card__feature {
+    background-color: white;
+}
+
+.card__exc{
+    background-color: white;
+    color: grey;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: grey;
+}
+
+.card__cir{
+    margin-top: 3px;
+    background-color: white;
+    color: grey;
+}
+
+.card__title{
+    background-color: white;
+    margin: 10px;
+    
+}
+
+.card__userId{
+    background-color: white;
+    color: grey;
+    margin: 10px;
+}
+
+.card__feature{
+    display: flex;
+    margin-left: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: grey;
+    padding: 4px;
+}
+
+.card__feature > span{
+    background-color: transparent;
+    margin-left: 5px;
+    color: grey;
+}

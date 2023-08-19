@@ -1,0 +1,61 @@
+.navbar__container{
+    background-color: white;
+    position: sticky;
+    top:0;
+    height: 50px;
+}
+
+.navbar__btn > span{
+    background-color: white;
+    margin-left: 5px;
+}
+
+.navbar__icon{
+    background-color: white;
+    margin-left: 5px;
+}
+
+.navbar__btn{
+    position: absolute;
+    display: inline-flex;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 9px;
+    padding: 4px;
+    font-size: medium;
+}
+
+.navbar__drop{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 100;
+    margin: 45px 30px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.navbar__option{
+    margin: 10px 10px;
+}
+
+.navbar__option select{
+    margin-left: 70px;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.navbar__option > select > option{
+    border-radius: 5px;
+    height: 25px;
+    width: 40px;
+}

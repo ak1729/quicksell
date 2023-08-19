@@ -1,0 +1,9 @@
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.grid__icon{
+    display: flex;
+    margin: 15px;
+}
